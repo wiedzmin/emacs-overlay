@@ -4708,7 +4708,7 @@
       };
     }
   ) { };
-  hyperbole = callPackage (
+  hyperbole-pinned = callPackage (
     {
       elpaBuild,
       fetchurl,
@@ -4717,10 +4717,10 @@
     elpaBuild {
       pname = "hyperbole";
       ename = "hyperbole";
-      version = "9.1.0.0.20260915.63";
+      version = "9.0.20.20260630.1207";
       src = fetchurl {
-        url = "https://elpa.gnu.org/devel/hyperbole-9.1.0.0.20260915.63.tar";
-        sha256 = "08h2k3ga5wq86j41sbj68z4jqwig5b2kv9wy74m81057r76p1qvw";
+        url = "https://elpa.gnu.org/devel/hyperbole-9.0.20.20260630.1207.tar";
+        sha256 = "1wmzpdx25vwvi9d28z00pb8fwrxw360nqpb3nlcr4z10l0cm2vf8";
       };
       packageRequires = [ ];
       meta = {
